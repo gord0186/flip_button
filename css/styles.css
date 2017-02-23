@@ -17,7 +17,7 @@ body {
   cursor: pointer;
   font-family: 'Roboto', sans-serif;
   transition: all 0.85s cubic-bezier(.17,.67,.14,.93);
-	transform-style: preserve-3d;
+  transform-style: preserve-3d;
   transform-origin: 100% 50%;
   width: 10em;
   height: 4em;
@@ -25,6 +25,10 @@ body {
   &:hover {
     transform: rotateX(-90deg);
   }
+}
+
+.cube:hover {
+  transform: rotateX(-90deg);
 }
 
 .side {
